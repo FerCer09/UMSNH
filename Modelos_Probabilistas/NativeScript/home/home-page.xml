@@ -1,0 +1,24 @@
+<Page loaded="pageLoaded">
+
+    <ActionBar title="Home">
+    </ActionBar>
+    <ScrollView class="texto">
+        <StackLayout class="texto-panel">
+            <!--Add your page content here-->
+            <Label textWrap="true" text="Modelos probabilistas"
+                class="titulo" />
+            <Button text="Autor" class="boton_personalizado"
+                tap="autor_boton"></Button>
+            <Label textWrap="true" text="Temas a tratar."
+                class="h2 description-label" />
+            <Button text="Inteligencia Artificial" class="boton_personalizado"
+                tap="onTap"></Button>
+            <Button text="Redes Neuronales" class="boton_personalizado"
+                tap="onTap2"></Button>
+
+
+            <Image src="~/imagenes/titulo.jpg"></Image>
+
+        </StackLayout>
+    </ScrollView>
+</Page>

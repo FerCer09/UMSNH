@@ -1,0 +1,20 @@
+<Page loaded="pageLoaded">
+    <ActionBar title="Autor"></ActionBar>
+    <ScrollView>
+        <StackLayout class="texto">
+            <Label textWrap="true" text="Datos del Autor" class="titulo" />
+            <Image src="~/imagenes/foto.jpg"></Image>
+
+            <Label textWrap="true" text="Nombre: Fernando Cervantes Joaquín"
+                class="text" />
+            <Label textWrap="true" text="Matricula: 1416339F" class="text" />
+            <Label textWrap="true" text="Carrera: Ingenieria en Computación"
+                class="text" />
+            <Label textWrap="true" text="Universidad Michoacana de San Nicolás de Hidalgo" class="text" />
+          
+            <Button text="HOME" tap="regresar"></Button>
+
+
+        </StackLayout>
+    </ScrollView>
+</Page>

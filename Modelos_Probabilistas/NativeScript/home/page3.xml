@@ -1,0 +1,121 @@
+<Page loaded="pageLoaded">
+    <ActionBar title="Redes Neuronales"></ActionBar>
+    <ScrollView>
+        <StackLayout class="texto">
+            <Label textWrap="true" text="Redes Neuronales" class="titulo" />
+            <Image src="~/imagenes/redes.png"></Image>
+
+            <Label textWrap="true" text="¿Qué son las redes Neuronales?"
+                class="h2" />
+            <Label textWrap="true" class="btn"
+                text="Las redes neuronales están inspiradas en el sistema nervioso y su comportamiento biológico, creando un sistema de interconexión en capas de neuronas artificiales que juntas trabajan para procesar datos de entrada y generar salidas, como podemos ver en la imagen anterior estan formadas por la capa de entrada, capas ocultas y capas de salida." />
+            <Label textWrap="true"
+                text="&#x2022; Capa de entrada: Son los campos que representan las varibles de entrada "
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Capas ocultas: Son las capas que se encargan de procesar la información de entrada"
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Capas de salida: Son los campos que representan los campos de salida y da el resultado de los procesos"
+                class="btn" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" class="btn"
+                text="La neurona es la red neuronal mas sencilla y por medio de esta neurona se pueden usar para la clasificiación de los patrones de la información procesada" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" class="btn"
+                text="Una red neuronal formada solo por una capa se llaman redes monocapa" />
+            <Image src="~/imagenes/mono.png"></Image>
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" class="h2" text="Tipos de capas" />
+            <Label textWrap="true"
+                text="&#x2022; Redes de capa simple: Esta formada por un conjunto de neuronas a los que entrá una cierta cantidad de entradas y produce una salida."
+                class="btn" />
+            <Image src="~/imagenes/capa.png"></Image>
+            <Label textWrap="true"
+                text="&#x2022; Redes de multicapa: Son un conjunto de redes de capa simple en cascada, están unidad por pesos, y la salida de la capa es la entrada de la siguiente capa."
+                class="btn" />
+            <Image src="~/imagenes/multi.png"></Image>
+            
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" class="h2" text="Tipos de aprendizaje" />
+            <Label textWrap="true"
+                text="Las redes neuronales tienen el poder de aprender (conocido como Machine Learnig) que hace posible la inteligencia artificial, por medio de estos tipos de aprendizaje"
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Aprendizaje Supervisado, que es donde se clasifican los datos de entrada para ayudar a los algoritmos a entender los datos y asignar un valor de salida."
+                class="btn" />
+            <Image src="~/imagenes/super.png"></Image>
+            <Label textWrap="true"
+                text="&#x2022; Aprendizaje no supervisado, aquí no se clasifica ningún dato de entrada y solo el algoritmo se encarga de encontrar patrones y correlaciones."
+                class="btn" />
+            <Image src="~/imagenes/nosuper.png"></Image>
+            <Label textWrap="true"
+                text="&#x2022; Aprendizaje reforzado, se basa en el ensayo y error, es decir que conforme se practique y se falle, poco a poco el fallo se dejará de presentar"
+                class="btn" />
+            <Image src="~/imagenes/refor.png"></Image>
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" class="btn"
+                text="Pero las redes neuronales deben estar en un entrenamiento intenso para que se pueden aplicar en una empresa y estas se entrenan mediante la alimentación de texto que se clasifico anteriormente, y cuanto más compleja sea la red neuronal, necesita mayor cantidad de datos de entrenamiento para poder entrenarla" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" class="h2"
+                text="Aplicaciones de las Redes Neuronales" />
+            <Label textWrap="true"
+                text="&#x2022; Sistemas inteligentes para la toma de decisiones en la gestión empresarial."
+                class="btn" />
+            <Label textWrap="true" text="&#x2022; Predicción." class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Reconocimiento de tendencias." class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Reconocimiento de patrones y gestión de riesgos."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Artefactos inteligentes con capacidad de aprendizaje."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Hogar inteligente o domótica." class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Sistemas de visión computacional y detección."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Vehículos autónomos y energías renovables."
+                class="btn" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" class="h2" text="Ejemplos" />
+            <Label textWrap="true"
+                text="El Recomendador de youtube, es una red neuronal que va aprendiendo sobre las búsquedas que realizas, videos que ves, que te gustan y que no te gustan, para sí poder recomendarte nuevo contenido y aparte ese contenido es personal, el reto de este modelo fue manejar la gran cantidad de datos que son subidos a YouTube, así como los miles de usuarios que están registrados en este sitio web."
+                class="btn" />
+            <Image src="~/imagenes/yy.png"></Image>
+
+            <Label textWrap="true"
+                text="Dynamic Princing Amazon, esta red neuronal se encarga de establecer los precios de los productos en tiempo real, basándose en su oferta y demanda durante un corto periodo de tiempo, esto ayuda a que la empresa pueda ofrecer precios más competitivos a los clientes."
+                class="btn" />
+            <Image src="~/imagenes/amazon.png"></Image>
+
+            <Label textWrap="true"
+                text="HSBC utiliza una red neuronal que se encarga de analizar el comportamiento de clientes antiguos y con este análisis puede dar una predicción de riesgo para un cliente nuevo a la hora de obtener un préstamo."
+                class="btn" />
+            <Image src="~/imagenes/hsbc.png"></Image>
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true"
+                text="Tema anterior:"
+                class="btn" />
+            <Button text="Inteligencia artificial" class="boton_personalizado"
+                tap="onTap"></Button>
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" text="Información del autor:"
+                class="btn" />
+            <Button text="Autor" class="boton_personalizado"
+                tap="autor_boton"></Button>
+
+        </StackLayout>
+    </ScrollView>
+</Page>

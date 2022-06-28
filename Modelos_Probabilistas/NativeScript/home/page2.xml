@@ -1,0 +1,135 @@
+<Page loaded="pageLoaded">
+    <ActionBar title="Inteligencia Artificial"></ActionBar>
+    <ScrollView>
+        <StackLayout class="texto">
+            <!--Add your page content here-->
+            <Label textWrap="true" text="Inteligencia Artificial"
+                class="titulo" />
+            <Image src="~/imagenes/ia.png"></Image>
+
+            <Label textWrap="true" text="¿Qué es la inteligencia Artificial?"
+                class="h2" />
+
+            <Label textWrap="true" class="btn"
+                text="Son aquellas máquinas o sistemas que simulan la inteligencia humana para realizar tareas y tienen la capacidad de mejorar por medio de la información que recopilan" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" text="Tipos de inteligencia Artificial"
+                class="h2" />
+            <Label textWrap="true" text="Una primera clasificación es por:"
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Inteligencia Artificial débil, son sistemas que fueron diseñados e implementados para realizar una tarea específica."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Inteligencia Artificial fuerte, son sistemas que tienen capacidades intelectuales para que estos sistemas encuentren una solución por sí solos."
+                class="btn" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true" text="Una segunda clasificación es por:"
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Reactiva: Es la inteligencia artificial más básica y resuelven problemas mediante soluciones con patrones propias."
+                class="btn" />
+            <Image src="~/imagenes/reac.jpg"></Image>
+            <Label textWrap="true"
+                text="&#x2022; Inclusiva: Es la inteligencia artificial que puede temporalmente analizar información del pasado de forma limitada."
+                class="btn" />
+            <Image src="~/imagenes/inc.jpg"></Image>
+            <Label textWrap="true"
+                text="&#x2022; Perceptiva: Es la inteligencia artificial que analiza información que le permite entender y conocer su entorno."
+                class="btn" />
+            <Image src="~/imagenes/perc.jpg"></Image>
+            <Label textWrap="true"
+                text="&#x2022; Autoconciencia: Es la inteligencia artificial que ha evolucionado una conciencia propia que le permite pensar y tomar decisiones propias, teniendo la capacidad de mejorar por si solo."
+                class="btn" />
+            <Image src="~/imagenes/auto.jpg"></Image>
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true"
+                text="¿Para que se utiliza la Inteligencia artificial?"
+                class="h2" />
+            <Label textWrap="true"
+                text="&#x2022; Los bots usan la Inteligencia Artificial para escuchar los problemas de los clientes y proporcionar soluciones."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Los asistentes inteligentes usan la Inteligencia Artificial para analizar gran contenido de información para mejorar la rutina."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Los motores de recomendación utilizan la inteligencia artificial para proporcionar recomendaciones automatizadas los clientes en base a sus hábitos en la aplicación."
+                class="btn" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true"
+                text="Ventajas de la inteligencia artificial" class="h2" />
+            <Label textWrap="true"
+                text="&#x2022; Aumenta la eficacia de los procesos."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Automatizar (evita procesos repetitivos)."
+                class="btn" />
+            <Label textWrap="true" text="&#x2022; No comete errores humanos."
+                class="btn" />
+            <Label textWrap="true" text="&#x2022; Trabaja las 24 horas."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022;  Se pueden utilizar como asistentes virtuales."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Es capaz de realizar predicciones en base a la información que extrae y analiza la máquina."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Pueden realizar tareas peligrosas o imposibles para los humanos."
+                class="btn" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true"
+                text="Aplicaciones de la inteligencia artificial"
+                class="h2" />
+            <Label textWrap="true"
+                text="&#x2022; Formación directiva: Acelera y facilita la toma de decisiones dentro de una empresa."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Salud y Biotecnología: Ayudan a médicos y pacientes en tener una valoración más rápida y precisa."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Comercio: Brinda la predicción de ventas y ofrece recomendaciones al cliente de escoger un artículo apropiado."
+                class="btn" />
+            <Label textWrap="true"
+                text="Servicios Financieros: Ayudan en informar los riesgos, predecir patrones del mercado y dar recomendaciones de acción a las organizaciones financieras."
+                class="btn" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true"
+                text="Algoritmos utilizados en la inteligencia artificial"
+                class="h2" />
+            <Label textWrap="true"
+                text="Para que las máquinas tenga la capacidad de aprender se utilizan las redes neuronales, las cuales se explicará mas a detalle en el siguiente tema, hay 3 tipos de aprendizaje en las cuales los algoritmos mas populares que se implentan son:"
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Aprendizaje supervisado: Utiliza los algoritmos árboles de decisión, clasificaciones Naïve Bayes, regresión ordinaria por mínimos cuadrados, regresión logística Support Vector Machines (SVM)"
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Aprendizaje no supervisado: Utiliza los Algoritmos de agrupamiento (clustering), análisis de componentes principales (PCA), Singular Value Decompotition (SVD), Análisis de componentes independientes (ICA)."
+                class="btn" />
+            <Label textWrap="true"
+                text="&#x2022; Aprendizaje por refuerzo: Utiliza los algoritmos programación dinámica (dynamic programming), Q-Learning, SARSA (State–action–reward–state–action)."
+                class="btn" />
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true"
+                text="Para más información lea el siguiente tema:"
+                class="btn" />
+            <Button text="Redes Neuronales" class="boton_personalizado"
+                tap="onTap"></Button>
+
+            <Label textWrap="true" text=" " class="btn" />
+            <Label textWrap="true"
+                text="Información del autor:"
+                class="btn" />
+            <Button text="Autor" class="boton_personalizado"
+                tap="autor_boton"></Button>
+
+        </StackLayout>
+    </ScrollView>
+</Page>
