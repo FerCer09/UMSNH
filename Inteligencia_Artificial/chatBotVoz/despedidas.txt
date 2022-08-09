@@ -1,0 +1,13 @@
+Adiós
+Bye
+Adiós
+Ya me voy
+te cuidas
+Igualmente te cuidas
+hasta luego
+hasta luego
+salir
+nos vemos
+sale
+
+Dar mantenimiento a las computadoras que están en el laboratorio de simulación y cómputo avanzado, así como implementar una base de datos que registre el historial de mantenimiento, incluso instalar software a las computadoras.
